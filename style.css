@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:20');
+* {
+    padding:0;
+    margin:0;
+}
+body{
+    background: linear-gradient(to right top,rgb(234, 242, 245), rgb(241, 236, 233));
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    /* 
+    background:  ;
+    background-attachment: fixed;
+    */
+}
+h1{
+    font-size: 45px;
+}
+span{
+    float: right;
+    font-size: 15px;
+}
+.main{
+    background: rgba(255, 255, 255, 0.952);
+    border-radius: 10px;
+    /* background: linear-gradient(to right top,rgb(234, 242, 245), rgb(241, 236, 233)); */
+    width: 70vw;
+    margin-left: 14vw;
+    height: 100vh;
+}
+input{
+    width: 25vw;
+    height: 5vh;
+    border: none;
+    border-bottom: dotted;
+    margin: 10px;
+    padding: 1vh;
+}
+p:hover{
+    
+    cursor: context-menu;
+      
+}
+input[type="text"]
+{
+    font-size:15px;
+}
+#button{
+    height: 45px;
+    width: 45px;
+    
+    background: rgb(207, 247, 247);
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size: 25px;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+p{
+    font-size: large;
+    margin-top: 4vh;
+}
+#pending{
+    font-size: 15px;
+    color: blue;
+}
+#right{
+    color: rgb(118, 51, 145);
+}
+#right i{
+    color: red;
+}
+#left{
+    float: left;
+    color: lightseagreen;
+}
+.todo{
+    color: rgb(34, 131, 34);
+
+}
