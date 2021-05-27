@@ -30,6 +30,8 @@ span{
     width: 70vw;
     margin-left: 14vw;
     padding-bottom: 20vh;
+    padding-left: 15px;
+    padding-right: 15px;
     /* height: 100vh; */
 }
 input{
@@ -85,4 +87,11 @@ p{
 .todo{
     color: rgb(34, 131, 34);
 
+}
+
+@media (max-width: 768px){
+    .main{
+        width: 90vw; 
+        margin-left: 2vw;            
+    }
 }
