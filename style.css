@@ -94,4 +94,15 @@ p{
         width: 90vw; 
         margin-left: 2vw;            
     }
+    input{
+        background: linear-gradient(to right top,rgb(234, 242, 245), rgb(241, 236, 233));
+        
+        width: 50vw;
+        height: 5vh;
+        border: none;
+        border-bottom: dotted;
+        margin: 10px;
+        padding: 1vh;
+    }
+    
 }
