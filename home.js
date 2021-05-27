@@ -32,7 +32,7 @@ button.addEventListener('click',function(){
     var para= document.createElement('p');
     para.classList.add('paragraph-styling')
     para.innerText= input.value;
-    if(input.value!=""){
+    if(input.value!==""){
         count=count+1;
     }
     toDoContainer.appendChild(para);
@@ -59,6 +59,11 @@ button.addEventListener('click',function(){
 
     para.addEventListener('dblclick', function(){
         toDoContainer.removeChild(para);
+        if(para.style.textDecoration=='line-through'){
+            para.style.textDecoration='none';
+            count=count+1;
+            //par.innerText="You have "+count +" pending tasks";
+        }
         count=count-1;
         if(count<0){
             count=0;
